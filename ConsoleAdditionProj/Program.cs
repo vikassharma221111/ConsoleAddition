@@ -20,6 +20,7 @@ namespace ConsoleAdditionProj
             Program prog = new Program();
             Console.WriteLine("The Output for Addition is :" + prog.Addition(2, 7));
             Console.ReadLine();
+
         }
 
 
