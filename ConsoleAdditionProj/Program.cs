@@ -19,8 +19,8 @@ namespace ConsoleAdditionProj
         {
             Program prog = new Program();
             Console.WriteLine("The Output for Addition is :" + prog.Addition(2, 7));
+            Console.WriteLine("The Output for Multiplication is :" + prog.Multiplication(2, 7));
             Console.ReadLine();
-
         }
 
 
@@ -30,13 +30,16 @@ namespace ConsoleAdditionProj
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        private int Addition(int a,int b)
+        public int Addition(int a,int b)
         {
             return a + b;
         }
 
+        public int Multiplication(int a, int b)
+        {
+            return a * b;
+        }
     }
-
 
 
 }
